@@ -9,5 +9,10 @@
   "private": true,
   "license": "UNLICENSED",
   "dependencies": {
-  }
+    "node-fetch": "^3.2.10"
+  },
+  "bin": {
+    "starwars": "./index.js"
+  },
+  "type": "module"
 }
